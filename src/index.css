@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base {
+  .btn {
+    @apply text-white bg-[#6B6B6B] px-5 py-3 cursor-pointer hover:bg-[#4B4B4B] rounded-xl;
+  }
+}
